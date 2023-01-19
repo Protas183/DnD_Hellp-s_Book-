@@ -1,0 +1,76 @@
+.weapon {
+    margin: 0;
+}
+
+.weapon_info {
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: aliceblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.weapon-impact_title {
+    font-size: 30px;
+}
+
+.weapon_list_header {
+    padding: 10px;
+    font-size: 22px;
+    background-color: rgb(193, 113, 113);
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.weapon_list {
+    margin: 0;
+    height: 50px;
+    padding: 10px 0 10px 10px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    
+}
+
+.weapon_list_describe {
+    margin: 0;
+    font-size: 20px;
+}
+
+.weapon_list_describe:not(:first-child) {
+    margin-left: 35px;
+}
+
+.weapon_list_describe-name {
+    width: 200px;
+}
+
+.weapon_list_describe-price {
+    width: 100px;
+}
+
+.weapon_list_describe-dmg {
+    width: 100px;
+}
+
+.weapon_list_describe-property {
+    width: 200px;
+}
+
+.weapon_list_describe-kick {
+    width: 300px;
+}
+
+.impact_title_name {
+    margin-top: 25px;
+    font-size: 22px;
+    font-style: oblique; 
+}
+
+.impact_title_describe {
+    margin-top: 5px;
+    font-size: 20px;
+    font-style: italic;
+}

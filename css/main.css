@@ -4,9 +4,7 @@
 }
 
 body {
-  background-image: url(../../assets/image/body/img.jpg);
-  background-size: cover;
-  background-repeat: repeat;
+  background-color: bisque;
 }
 
 a {
@@ -57,31 +55,57 @@ p {
   color: rgb(255, 255, 255);
 }
 
+.race_shifter {
+  position: absolute;
+}
+
+.img_shifter {
+  display: block;
+  position: absolute;
+}
+
 .weapon {
   margin: 0;
-  max-width: 678px;
-  background-color: rgb(246, 244, 244);
+}
+
+.weapon_info {
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: aliceblue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.weapon-impact_title {
+  font-size: 30px;
 }
 
 .weapon_list_header {
-  position: relative;
-  overflow: hidden;
   padding: 10px;
-  background-color: bisque;
+  font-size: 22px;
+  background-color: rgb(193, 113, 113);
   cursor: pointer;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .weapon_list {
   margin: 0;
+  height: 50px;
   padding: 10px 0 10px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .weapon_list_describe {
   margin: 0;
+  font-size: 20px;
 }
 
 .weapon_list_describe:not(:first-child) {
@@ -100,6 +124,45 @@ p {
   width: 100px;
 }
 
+.weapon_list_describe-property {
+  width: 200px;
+}
+
 .weapon_list_describe-kick {
   width: 300px;
+}
+
+.impact_title_name {
+  margin-top: 25px;
+  font-size: 22px;
+  font-style: oblique;
+}
+
+.impact_title_describe {
+  margin-top: 5px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.spells_name_all-person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.spells_block {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.spells_level {
+  margin: 0;
+}
+
+.spells_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }/*# sourceMappingURL=main.css.map */
